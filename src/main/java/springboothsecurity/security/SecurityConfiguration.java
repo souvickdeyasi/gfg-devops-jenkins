@@ -14,6 +14,7 @@ public class SecurityConfiguration {
 	 * Exception { auth .inMemoryAuthentication() .withUser("foo") .password("foo")
 	 * .roles("USER"); }
 	 */
+
 	
 	@Bean
 	public PasswordEncoder getPasswordEncoder() {
