@@ -6,7 +6,7 @@ public class SecurityApplication {
 	public static void main(String[] args) {
 	//	SpringApplication.run(SecurityApplication.class, args);
 		int l = 10;
-		int b = 20;
+		int b = 200;
 		System.out.println("Area of the given Rectangle is : " + SecurityApplication.areaRect(l, b));
 
 	}
